@@ -1,6 +1,6 @@
 import { useState } from "react";
 import useFetch from "../hooks/useFetch";
-import { FloatingLabel, ListGroup } from "flowbite-react";
+import { FloatingLabel, ListGroup, Spinner } from "flowbite-react";
 
 
 export default function Search({ handleChange }) {
@@ -28,9 +28,12 @@ export default function Search({ handleChange }) {
                         {
                             loading
                                 ? (
-                                    <h2>Espere un momento</h2>
+                                    <h2>
+                                        Espere un momento
+                                        <Spinner aria-label="Default status example" />
+                                    </h2>
                                 ) : data.length == 0 ? (
-                                    <h2>No se encontraron resultados</h2>
+                                    <h2>No se encontraron resultados ❌</h2>
                                 ) : (data.map(result =>
                                     <ListGroup.Item
                                         onClick={

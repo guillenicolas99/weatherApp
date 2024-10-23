@@ -6,7 +6,6 @@
   background: rgb(49,50,95);
 background: linear-gradient(0deg, rgba(49,50,95,1) 0%, rgba(25,27,60,1) 50%, rgba(18,25,56,1) 100%);
 min-height: 100vh;
-color: #fff;
 }
 
 /* HTML: <div class="loader"></div> */

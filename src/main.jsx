@@ -3,7 +3,7 @@ import App from './App.jsx'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
-  <div className='container mx-auto'>
+  <div className='container mx-auto font-mono'>
     <App />
   </div>,
 )
