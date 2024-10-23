@@ -16,7 +16,7 @@ function App() {
   if (error) return <h3>{error}</h3>
 
   return (
-    <div className='px-3'>
+    <div className='p-3'>
       <Search handleChange={handleChange} />
       <div className=''>
         {
