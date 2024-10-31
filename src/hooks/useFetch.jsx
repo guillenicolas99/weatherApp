@@ -11,7 +11,7 @@ const useFetch = (url) => {
         const options = {
             method: 'GET',
             headers: {
-                'x-rapidapi-key': 'a92de603ecmsh789492e0203f7bcp18b2c0jsnf0f98e198f06',
+                'x-rapidapi-key': '97ec86b430msh3ac91ce9e3c65e6p1e1c10jsnc0c5ca16b747',
                 'x-rapidapi-host': 'weatherapi-com.p.rapidapi.com'
             }
         };
